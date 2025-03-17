@@ -1,0 +1,368 @@
+PID,Label,Description,predicted_labels
+P10,video,"relevant video. For images, use the property P18. For film trailers, qualify with ""object has role"" (P3831)=""trailer"" (Q622550)",movies
+P54,member of sports team,sports teams or clubs that the subject represents or represented,sports programs
+P57,director,"director(s) of film, TV-series, stageplay, video game or similar",TV programs
+P115,home venue,home stadium or venue of a sports team or applicable performing arts organization,sports programs
+P118,league or competition,"league or competition in which team or player has played, or in which an event occurs",sports programs
+P123,publisher,"organization or person responsible for publishing books, periodicals, printed music, podcasts, games or software",sports programs
+P161,cast member,"actor in the subject production [use ""character role"" (P453) and/or ""name of the character role"" (P4633) as qualifiers] [use ""voice actor"" (P725) for voice-only role] - [use ""recorded participant"" (P11108) for non-fiction productions]",TV programs
+P162,producer,"person(s) who produced the film, musical work, theatrical production, etc. (for film, this does not include executive producers, associate producers, etc.) [for production company, use P272, video games - use P178]",movies
+P197,adjacent station,"the stations next to this station, sharing the same line(s)",TV programs
+P272,production company,"company that produced this film, audio or performing arts work",movies
+P286,head coach,"on-field manager or head coach of a sports club (not to be confused with a general manager P505, which is not a coaching position) or person",sports programs
+P364,original language of film or TV show,"language in which a film or a performance work was originally created. Deprecated for written works and songs; use P407 (""language of work or name"") instead.",movies
+P371,presenter,main role in presenting a radio or television program or a performing arts show,TV programs
+P393,edition number,"number of an edition (first, second, ... as 1, 2, ...) or event",news programs
+P406,soundtrack release,music release that incorporates music directly recorded from the soundtrack of an audiovisual work,movies
+P407,language of work or name,"language associated with this creative work (such as books, shows, songs, broadcasts or websites) or a name (for persons use ""native language"" (P103) and ""languages spoken, written or signed"" (P1412))",TV programs
+P413,position played on team / speciality,position or specialism of a player on a team,sports programs
+P423,shooting handedness,whether the hockey player passes or shoots left- or right-handed,sports programs
+P449,original broadcaster,network(s) or service(s) that originally broadcast a radio or television program,TV programs
+P468,dan/kyu rank,"rank system used in several board games (e.g. go, shogi, renju), martial arts (e.g. judo, kendo, wushu) and some other games",sports programs
+P480,FilmAffinity film ID,FilmAffinity identification number of a creative work,movies
+P505,general manager,general manager of a sports team. If they are also an on-field manager use P286 instead,sports programs
+P543,oath made by,"person(s) that made the oath at an event, like the Olympic Games",sports programs
+P545,torch lit by,"person that lit the torch at an event, like the Olympic Games",sports programs
+P555,doubles record,win/lose balance for a player in doubles tournaments,sports programs
+P564,singles record,win/lose balance for a player in singles tournaments,sports programs
+P609,terminus location,location of the terminus of a linear feature,TV programs
+P634,team captain,captain of this sports team,sports programs
+P641,sport,sport that the subject participates or participated in or is associated with,sports programs
+P647,drafted by,which team the player was drafted by,sports programs
+P664,organizer,person or institution organizing an event,sports programs
+P674,characters,"characters which appear in this item (like plays, operas, operettas, books, comics, films, TV series, video games)",TV programs
+P741,playing hand,"hand used to play a racket sport, cricket, fencing, or curling",sports programs
+P750,distributed by,distributor of a creative work; distributor for a record label; news agency; film distributor,movies
+P765,surface played on,the surface on which a sporting event is played,sports programs
+P822,mascot,"mascot of an organization, e.g. a sports team or university",sports programs
+P831,parent club,parent club of this team,sports programs
+P840,narrative location,the narrative of the work is set in this location,movies
+P915,filming location,"actual place where this scene/film was shot. For the setting, use ""narrative location"" (P840)",movies
+P920,LEM ID,"subject headings for public libraries maintained by the Spanish Ministry of Education, Culture and Sport",sports programs
+P984,IOC country code,three-letter abbreviation country code by the International Olympic Committee,sports programs
+P1019,web feed URL,"news feed (RSS, Atom, etc.) of this person/organisation/project",news programs
+P1040,film editor,"person who works with the raw footage, selecting shots and combining them into sequences to create a finished motion picture",movies
+P1046,discovery method,way an exoplanet was discovered,news programs
+P1110,attendance,"number of people (spectators, ticket holders) at an event or exhibition",sports programs
+P1113,number of episodes,number of episodes in a film/TV/radio series,TV programs
+P1129,national team appearances,total number of games officially played by a sportsman for national team,sports programs
+P1142,political ideology,political ideology of an organization or person or of a work (such as a newspaper),news programs
+P1170,transmitted signal type,type of signal transmitted by a device,TV programs
+P1191,date of first performance,"date a work was first debuted, performed or live-broadcasted",TV programs
+P1243,ISRC,international standard code for uniquely identifying sound recordings and music video recordings,movies
+P1283,filmography,"item for the list of films a person has contributed to. Don't use it to add film items. Instead, add actors as ""cast member"" (P161) on items for films, directors with ""director"" (P57)",movies
+P1299,depicted by,"object depicting this subject (object being creative works such as books, films, paintings)",movies
+P1339,number of injured,number of people with non-fatal injuries in an event,sports programs
+P1346,winner,"winner of a competition or similar event, not to be used for awards (instead use ""award received"" (P166) on awardee's item, possibly qualified with ""for work"" (P1686)) or for wars or battles",sports programs
+P1350,number of matches played/races/starts,matches or games a player or a team played during an event. Also a total number of matches a player officially appeared in during the whole career.,sports programs
+P1351,number of points/goals/set scored,goals / points scored in a match or an event used as qualifier to the participant. Use P1358 for league points.,sports programs
+P1355,number of wins,"number of sporting matches, games or events won",sports programs
+P1356,number of losses,"number of sporting matches, games or events lost",sports programs
+P1357,number of draws/ties,number of matches or games drawn or tied in a league or an event,sports programs
+P1358,points for,number of points in a league table or decathlon. (Use P1351 for goals/points in a match),sports programs
+P1363,points/goal scored by,person who scored a point or goal in a game,sports programs
+P1390,match time of event,time into a game when an event occurs (use with a unit),sports programs
+P1408,licensed to broadcast to,place that a radio/TV station is licensed/required to broadcast to,TV programs
+P1431,executive producer,"executive producer of a movie, TV show, or other piece of media or entertainment",TV programs
+P1443,score method,"qualifier of ""points/goal scored by (P1363)""",sports programs
+P1446,number of missing,"number of people missing after an event - qualify with ""point in time (P585)""",sports programs
+P1532,country for sport,country a person or a team represents when playing a sport,sports programs
+P1545,series ordinal,"position of an item in its parent series (most frequently a 1-based index), generally to be used as a qualifier (different from ""rank"" defined as a class, and from ""ranking"" defined as a property for evaluating a quality)",TV programs
+P1618,sport number,"number worn on a player's (competitor's) uniform, equipment, etc",sports programs
+P1642,acquisition transaction,how the player was acquired; qualifier for P54 (member of sports team),sports programs
+P1643,departure transaction,how the player was released or transferred from the roster; qualifier for P54 (member of sports team),sports programs
+P1652,referee,referee or umpire of a match,sports programs
+P1657,MPA film rating,US film classification administered by the Motion Picture Association,movies
+P1740,category for films shot at this location,the object is a category for films shot at or in the subject,movies
+P1811,list of episodes,link to the article with the list of episodes for this series,TV programs
+P1836,draft pick number,overall pick number with which a player is selected in a sports draft,sports programs
+P1872,minimum number of players,minimum numbers of players of a game,sports programs
+P1873,maximum number of players,maximum numbers of players of a game,sports programs
+P1923,participating team,like 'Participant' (P710) but for teams. For an event like a cycle race or a football match you can use this property to list the teams and P710 to list the individuals (with 'member of sports team' (P54) as a qualifier for the individuals),sports programs
+P1967,BoxRec boxer ID,Identifier for a boxer in the BoxRec database,sports programs
+P1977,Les Archives du spectacle person ID,Identifier for an actor/actress/playwright in the Les Archives du spectacle database,movies
+P1981,FSK film rating,"permitted audience of a film, according to the German film-rating system (add Prüfnummer with qualifier ""P2676"")",movies
+P1998,UCI code of cycling team,three-character code uniquely identifying a cycling team according to UCI,sports programs
+P2061,aspect ratio (W:H),"image width to height ratio of films, photographs, and other images",movies
+P2094,competition class,"official classification by a regulating body under which the subject (events, teams, participants, or equipment) qualifies for inclusion",sports programs
+P2095,co-driver,rally team member who performs as a co-driver or co-pilot,sports programs
+P2103,size of team at start,number of players/sled dogs/etc. in a team at the start of a match or race,sports programs
+P2105,size of team at finish,number of players/sled dogs/etc. in a team at the end of the race or match,sports programs
+P2142,box office,box office takings accumulated by a film,movies
+P2156,pseudo crystal habit,"possible macrosopic appearance of a crystal different to its molecular symmetry (crystal cell, specimens with twinning or synthetic material)",movies
+P2208,average shot length,cinemetrical measure,movies
+P2321,general classification of race participants,classification of race participants,sports programs
+P2348,time period,"time period (historic period or era, sports season, theatre season, legislative period etc.) in which the subject occurred or with which it is associated",sports programs
+P2363,NMHH film rating,rating of a film in the Hungarian film rating system,movies
+P2364,production code,production code of a television episode,TV programs
+P2415,personal best,an individual's best performance in a given discipline,sports programs
+P2416,sports discipline competed in,discipline an athlete competed in within a sport,sports programs
+P2417,stage classification,stage results and ranking of a stage race,sports programs
+P2423,International Fencing Federation fencer ID,Identifier in the database of all fencers holding an international licence at the International Fencing Federation (FIE: Fédération Internationale d'Escrime),sports programs
+P2425,service ribbon image,"an image depicting the ribbon associated with a medal, order, etc.",sports programs
+P2437,number of seasons,number of seasons a television or radio series has had,TV programs
+P2443,stage reached,ultimate point in an event or competition reached by a participant,sports programs
+P2499,league level above,the league above this sports league,sports programs
+P2500,league level below,the league below this sports league,sports programs
+P2501,results,results of a competition such as sports or elections,sports programs
+P2502,classification of race,race for which this classification applies,sports programs
+P2515,costume designer,"person who designed the costumes for a film, television programme, etc.",TV programs
+P2522,competition won,competition or sports event won by the subject,sports programs
+P2545,bowling style,type of bowling employed by a cricketer,sports programs
+P2554,production designer,"person(s) responsible for overall aesthetic of the story of this motion picture, play, video game or similar; responsible for visual concept, producing interior, exterior, location, graphics, etc; deals with many and varied logistic related to this",movies
+P2649,CQ Ranking men's team URL,URL for a men's cycling team at cqranking.com,sports programs
+P2678,Russiancinema.ru film ID,id number for films in Russiancinema.ru,movies
+P2747,Filmiroda rating,rating of a film in the former (2004–2011) Hungarian film rating system,movies
+P2755,exploitation mark number,number of the exploitation mark of a movie in France,movies
+P2756,EIRIN film rating,category in the Japanese film rating system (add EIRIN number with qualifier P2676),movies
+P2758,CNC film rating (France),category assigned to a film by the Board of Film Classification (CNC) which what audiences may view it in France,movies
+P2767,JudoInside judoka ID,Identifier for a judoka at the JudoInside.com database,sports programs
+P2769,budget,"assigned monetary amount for a project (for the estimated cost of a film, also commonly referred to as budget, use P2130)",movies
+P2781,race time,officially recorded time elapsed in a sports race,sports programs
+P2838,professional name,name passed down by generation assumed by a master of a traditional Japanese art or sport such as kabuki or sumo,sports programs
+P2881,promoted,competitor or team promoted during competition,sports programs
+P2882,relegated,competitor or team relegated during competition,sports programs
+P2899,minimum age,"minimum age for, for example, movie certification",movies
+P2912,distinctive jersey,distinctive jersey held by a class or stage leader in a cycling competition,sports programs
+P2955,point of penalty,point of penalty in a tournament,sports programs
+P2962,title of chess person,title awarded by a chess federation to a person,sports programs
+P3022,flag bearer,person who carries the national flag of their country at an opening or closing ceremony,sports programs
+P3039,wheelbase,horizontal distance between the centers of the front and rear wheels,sports programs
+P3085,qualifies for event,this event qualifies for that event,sports programs
+P3091,mount,"creature ridden by the subject, for instance a horse",sports programs
+P3092,film crew member,"member of the crew creating an audiovisual work, used for miscellaneous roles qualified with the job title when no specific property exists. Don't use if such a property is available: notably for cast member (P161), director (P57), etc.",movies
+P3157,event distance,distance over which a race or other event is conducted or was achieved,sports programs
+P3195,league points system,point system of an e.g. sports league,sports programs
+P3203,Ciné-Ressources film ID,"page of a movie on the website ""Ciné-Ressources""",movies
+P3204,Ciné-Ressources person ID,"page of a person on the website ""Ciné-Ressources""",movies
+P3241,Catholic Encyclopedia ID,page of an article on newadvent.org,news programs
+P3260,points awarded,"points awarded to the winning person, team or work for a win, draw, tie or loss. If no points are awarded for some category of finish (e.g. loss) use value 0 not ''no value''.",sports programs
+P3279,statistical leader,"leader of a sports tournament in one of statistical qualities (points, assists, rebounds etc.).",sports programs
+P3301,broadcast by,"channel, network, website or service that broadcast this item over radio, television or the Internet",TV programs
+P3306,ICAA rating,rating in the Spanish motion picture content rating system,movies
+P3363,Tennis Hall of Fame player ID,International Tennis Hall of Fame,sports programs
+P3383,film poster,"poster used to promote and advertise this film (if file is available on Commons). Use P154 for logos, P18 for movie stills and related images. Items about film posters can be linked with the qualifier ""subject of"" (P805).",movies
+P3402,CNC film rating (Romania),rating of a movie in the Romanian content rating system,movies
+P3428,INCAA film rating,rating of a movie in the Argentinian content rating system,movies
+P3441,FIFA country code,three-letter country code assigned by FIFA,sports programs
+P3445,Cinema of Israel ID,"Identifier number in ""Cinema of Israel"" website",movies
+P3450,sports season of league or competition,"property that shows the competition of which the item is a season. Use P5138 for ""season of club or team"".",sports programs
+P3458,CNC authorization number,authorization number to operate a movie theater in France,movies
+P3494,points classification,classification established according to points scored by runners,sports programs
+P3496,teams classification by points,teams classification by points,sports programs
+P3497,teams classification by time,classification established by team with the criterion of the race time taken from a certain number of runners in the team,sports programs
+P3530,par,"predetermined number of strokes a 0-handicap golfer should require to complete a hole, a round or a tournament",sports programs
+P3610,fare zone,fare zone that the station is in,TV programs
+P3650,JMK film rating,rating of a film in the Austrian film rating system,movies
+P3729,next lower rank,"lower rank or level in a ranked hierarchy like sport league, military ranks. If there are several possible, list each one and qualify with ""criterion used"" (P1013), avoid using ranks and date qualifiers. For sports leagues/taxa, use specific properties instead.",sports programs
+P3730,next higher rank,"higher rank or level in a ranked hierarchy like sport league, military ranks. If there are several possible, list each one and qualify with ""criterion used"" (P1013), avoid using ranks and date qualifiers. For sports leagues/taxa, use specific properties instead.",sports programs
+P3744,number of subscribers,"number of subscribers for subscription-based companies, e.g. telecommunication companies, newspapers, pay-TV channels, software, etc.",TV programs
+P3764,pole position,"person, who starts race at first row (leader in the starting grid)",sports programs
+P3774,blocker of,protein (e.g. channel/pore protein) for which this chemical compound acts as a blocker,TV programs
+P3799,Safsal player ID,basketball player Id in Safsal website,sports programs
+P3800,Safsal coach ID,basketball coach Id in Safsal website,sports programs
+P3803,original film format,"film format used to create a work (aliases: film gauge, film size)",movies
+P3816,film script,script version for subject film is described at,movies
+P3818,KMRB film rating,rating of a film in the South Korean film/video rating system,movies
+P3822,rules for classification,the rules for classification of a sports league,sports programs
+P3834,RTC film rating,rating of a film in the Mexican film classification system,movies
+P3840,slope rating,the slope rating of a golf course is a measure of its difficulty for bogey golfers,sports programs
+P3886,number of perpetrators,"number of perpetrators in an event, as reported by reliable sources",news programs
+P3967,final event,final event of a competition,sports programs
+P3970,channel number,channel number of given TV channel; use with the mandatory qualifier P137,TV programs
+P3983,sports league level,the level of the sport league in the sport league system,sports programs
+P4033,Mastodon address,address on the Mastodon decentralized social network (the form is 'user@server.domain' without a leading '@'),movies
+P4105,EGF rating,rating given by EGF (European Go Federation) to European go players,sports programs
+P4135,maximum age,"highest age a person is eligible to do something, for example be member in youth organisation or sport teams, some positions like judges, clinical trials, etc",sports programs
+P4151,game mechanics,constructs of rules or methods designed for interaction with the game state,sports programs
+P4265,Reddit username,username on the social news website Reddit,news programs
+P4295,readership,"average number of readers of a newspaper or other periodical, per issue",news programs
+P4296,stellar rotational velocity,measured parameter for stars,sports programs
+P4312,camera setup,filmmaking method that the cameras were placed by. Use single-camera (Q2918907) or multiple-camera (Q738160),movies
+P4320,mountains classification,person ranked for this cycling stage or race,sports programs
+P4321,best combative classification,"person ranked as ""best combative"" for this cycling stage or race",sports programs
+P4322,best sprinter classification,"person ranked as ""best sprinter"" for this cycling stage or race",sports programs
+P4323,young rider classification,person ranked as young participant for this cycling stage or race,sports programs
+P4324,combination classification,"person ranked in ""best at combination"" for this cycling stage or race",sports programs
+P4341,synodic period,time between two passes of an object in front of a distant star seen from another orbiting object,movies
+P4437,FPB rating,rating of a film or video game in the South African media content rating system,movies
+P4584,first appearance,work in which a fictional/mythical character or entity first appeared,movies
+P4608,scenographer,person who designed the stage or film set of this item,movies
+P4622,trophy awarded,"trophy awarded at the end of a selection process or of a competition, usually to winners or finishers under the form of a cup, a medal, a diploma",sports programs
+P4745,is proceedings from,this work contains articles presented at the given event,news programs
+P4794,season starts,month or season when sports competition begins,sports programs
+P4815,Technical Element Score,for figure skating scores breakdown,sports programs
+P4825,deductions (in figure skating),for figure skating scores breakdown,sports programs
+P4826,Program Component Score,for figure skating scores breakdown,sports programs
+P4827,Swimrankings.net meet ID,property for swimmeets from swimrankings.net,sports programs
+P4836,Irish Rugby Football Union women's player ID,Identifier for a female rugby union player selected with Ireland women's national team on the Irish Rugby Football Union website,sports programs
+P4908,season,"season of a series (televison, web, podcast)",TV programs
+P4909,number of players in region,number of registered players in a sport or people practicing a sport in a region,sports programs
+P4912,century breaks,"in snooker, the number of career century breaks at officіal professional tournaments",sports programs
+P4958,classification of the best at metas volantes,secondary classification for bicycle race statistics used in hispanic language countries,sports programs
+P4967,prerequisite,"prior event or achievement that a person or team needs to complete before joining or obtaining the item topic, e.g. a qualifying round of a sports event, a lower-level course in an educational program, or a lower level of a professional qualification",sports programs
+P4969,derivative work,"new work of art (film, book, software, etc.) derived from major part of this work",movies
+P4999,number of clubs,number of clubs active in a given sport for a region,sports programs
+P5001,METAR code,METeorological Aerodrome Report,news programs
+P5028,sound designer,"person responsible for the sound on a stage, in a film or in a radio drama",movies
+P5030,talk show guest,person invited in a talk show,TV programs
+P5038,Fogis.se player ID,"PLEASE USE P1238 FOR THE CURRENT PLAYER PAGE. Identifier for a football (soccer) player's page at Fogis.se, a Swedish Football Association database.",sports programs
+P5053,fastest lap,person who does the fastest lap during a motorsport race,sports programs
+P5126,assistant director,"assistant stage director of a performing arts, film or television production",TV programs
+P5138,season of club or team,club or team that played the season,sports programs
+P5150,IGAC rating,rating of a film or theatrical production in the Portuguese classification system,movies
+P5152,KAVI rating,rating in the Finnish film and television rating system,movies
+P5201,IMDA rating,rating in the Singaporean film and video game rating system,movies
+P5249,sports competition competed at,edition of sports competitions at which the club or team that played a season competed at. Use this to link items for team seasons to items for specific seasons of competitions.Sample: 2012–13 FC Barcelona season → 2012–13 UEFA Champions League,sports programs
+P5283,Strava ID of a professional sport person,Wikidata property for authority control for sports people,sports programs
+P5289,World Stadium Database ID,sportsarenas/stadium database,sports programs
+P5317,jockey,person riding the horse in the race,sports programs
+P5349,laps completed,number of laps completed by a race participant,sports programs
+P5429,IPTC NewsCode,"NewsCode for an item, as defined by the International Press Telecommunications Council (IPTC)",news programs
+P5435,pixiv user ID,the artist id on pixiv,movies
+P5436,number of viewers/listeners,number of viewers of a television or broadcasting program; web traffic on websites,TV programs
+P5474,section number,"number assigned to a section of sportspeople in a sporting competition; e.g. ""3"" for a ""quarter-final 3""; use together with property ""stage reached"" (P2443)",sports programs
+P5552,CNRS Talent page,page on the Centre national de la recherche scientifique website presenting a person who has received certain prizes or medals,sports programs
+P5680,Hoopla title ID,"an audiobook, film, music album, comic, ebook, or television series on Hoopla",TV programs
+P5821,ArhivX LOD,Croatian art/theater linked open data,movies
+P5828,seed,seeding information of a participant of a sports event,sports programs
+P5880,video designer,person responsible for the creation and integration of film and motion graphics on a stage,movies
+P5958,Women's Japan Basketball League ID,Women's Japan Basketball League,sports programs
+P5960,Japan Professional Basketball League ID,Japan Professional Basketball League,sports programs
+P5970,Medierådet rating,rating of a film in the Danish movie content rating system,movies
+P5995,kit supplier,"official supplier of sports goods to a given sports club, sportsperson or a national sports team",sports programs
+P5996,category for films in this language,link to category entity contains films in this language,movies
+P6081,RIA Novosti reference,"background information on historical and current events, biographies of famous people",news programs
+P6087,coach of sports team,sports club or team for which this person is or was on-field manager or coach,sports programs
+P6112,category for members of a team,Wikimedia category for players playing for a sports team,sports programs
+P6118,season ends,to indicate what month of the year a sports season ends,sports programs
+P6192,Hembygdsportalen ID,Hembygdsportalen is a site containing local history material added by +600 local history communities in Sweden,sports programs
+P6198,Liga MX Femenil player ID,"official profile of a female association football (soccer) player from Liga MX Femenil, the top level Mexican league for women",sports programs
+P6210,LIGA profile,"background information on organizations, political parties, biographies of famous people",news programs
+P6219,TASS reference,"background information on historical and current events, locations, biographies of famous people",news programs
+P6254,subject lexeme,lexeme described or discussed in this item,movies
+P6338,colorist,"artist in charge of adding colors to drawings, comics, movie film, etc.",movies
+P6389,Skiresort.info ID,Record on skiresort.info for any specific ski resort,sports programs
+P6400,Skimap area ID,"Record page on www.Skimap.org for ski resort, with current and historical official published maps of lifts and ski-runs",sports programs
+P6452,CBFC rating,rating in the Indian film rating system,movies
+P6454,Bilibili tag ID,"number of a tag of Bilibili, a Chinese video website similar to YouTube or Niconico",movies
+P6509,total goals in career,goalscoring statistic,sports programs
+P6529,provisional house number,"house number used for recreational and provisional buildings in Czechia, formerly also in Slovakia (eg. cottages)",sports programs
+P6533,type of front suspension,"system of tires, tire air, springs, shock absorbers and linkages that connects a vehicle to its front wheels and allows relative motion between the two",sports programs
+P6534,type of rear suspension,"system of tires, tire air, springs, shock absorbers and linkages that connects a vehicle to its rear wheels and allows relative motion between the two",sports programs
+P6543,total shots in career,sports statistic,sports programs
+P6544,total points in career,sports statistic,sports programs
+P6545,total assists in career,goalscoring statistic,sports programs
+P6546,penalty minutes in career,sports statistic,sports programs
+P6547,career plus-minus rating,sports statistic,sports programs
+P6587,league system,league system the league belongs to,sports programs
+P6590,highest break,highest break made by a snooker player in their career or in a tournament,sports programs
+P6655,stroke order,media file showing the order of strokes in a CJKV character,movies
+P6657,CHVRS Classification,Canadian movie classification,movies
+P6658,RCQ classification,movie classification for the Régie du Cinéma Québécois,movies
+P6682,Motorsports Hall of Fame of America ID,Mini biographies of the inductees to the Motorsports Hall of Fame of America,sports programs
+P6697,Football Money League rank,rank in the Deloitte Football Money League,sports programs
+P6718,music video,short film integrating this composition with imagery,movies
+P6729,SportSport.ba club ID,property for various sportclubs on sportsport.ba website,sports programs
+P6757,exposure time,the length of time a image sensor or photographic film is exposed to light.,movies
+P6758,supported sports team,sports team for which a person or a group is a supporter,sports programs
+P6789,ISO speed,light sensitivity of film or digital sensor (e.g. ISO/ASA 100),movies
+P6808,SportSport.ba player ID,property for various sportpersons bios and stats on sportsport.ba website,sports programs
+P6867,Gamepedia wiki ID,wiki name for this topic on Gamepedia,sports programs
+P6884,target muscle,muscle that is targeted in a physical exercise,sports programs
+P6887,match interval,the part of a sporting match when an event takes place,sports programs
+P6948,video system,video system hardware that the item uses,movies
+P7053,Indian Super League player ID,external Identifiers for players participating in Indian Super League,sports programs
+P7069,World Athletics competition category,competition quality ranking assigned by World Athletics (formerly IAAF) used for comparison and future Olympic qualification,sports programs
+P7146,Rollerstory skater ID,inline speed skater-database,sports programs
+P7213,newspaper archive URL,online repository of newspaper,news programs
+P7367,content descriptor,"content descriptors for this video game, film, television show, etc.",TV programs
+P7458,Kinematoscope film ID,Database about Films adaptations of literary work (18th and 19th century),movies
+P7484,Kinematoscope film director ID,database of film adaptations of literary work (18th and 19th century),movies
+P7485,Kinematoscope writer ID,Database about Films adaptations of literary work (18th and 19th century),movies
+P7487,Kinematoscope literary work ID,Database about Films adaptations of literary work (18th and 19th century),movies
+P7573,IFCO rating,rating certificate of a film in the Irish content classification system,movies
+P7631,MPPDA Digital Archive film ID,link to a film's entry at the MPPDA Digital Archive,movies
+P8126,Club Netherlands Handball Association ID,official number given by the NHA to official clubs,sports programs
+P8127,tournament format,format of a sports tournament,sports programs
+P8345,media franchise,this creative work belongs to this media franchise,movies
+P8592,aerial view,image of the subject taken from the air,TV programs
+P8620,construction point,a reference point on a ski jumping hill,sports programs
+P8622,hill size,ski jumping hill size,sports programs
+P8794,BBFC reference,reference number for a film or video game (-2012) media content rating decision on BBFC's official website,movies
+P8874,Hong Kong film rating,Hong Kong film classification system,movies
+P8878,HLTV player ID,identifiant for a player in HLTV,TV programs
+P8884,number of points/goals attempted,shots or other attempts to score points in a sporting event,sports programs
+P8889,MTRCB rating,rating of a film or television program in the Philippines,TV programs
+P9065,Parabola package,name of the official Parabola package,sports programs
+P9086,BAMID film rating,rating in the Taiwanese movie content rating system,movies
+P9140,time played,time (usually minutes) played by a participant in a sporting event,sports programs
+P9180,number of at bats,number of batting attempts in a baseball career or game(s),sports programs
+P9184,number of hits,number of hits earned in a baseball career or game(s),sports programs
+P9188,bases on balls,number of walks in a baseball career or game(s),sports programs
+P9190,runs batted in,number of RBIs attributed to a baseball player in a career or game(s),sports programs
+P9217,stolen bases,number of bases stolen by a baseball player in a career or game(s),sports programs
+P9220,doubles hit,number of doubles hit by a baseball player in a career or game(s),sports programs
+P9225,triples hit,number of triples hit by a baseball player in a career or game(s),sports programs
+P9535,IBSF competition ID,Identifier for bobsleigh and skeleton competitions in the IBSF database,sports programs
+P9544,universal equine life number,unique identification number of an individual horse or other equine animal used in Europe,sports programs
+P9548,earned run average,earned run average of a baseball pitcher in a career or season,sports programs
+P9549,official podcast,official podcast of this person or organization,news programs
+P9652,personality trait of fictional character,particular personality trait which applies to this fictional character,TV programs
+P9783,IFFR filmmaker ID,filmmaker in the catalogue of IFFR,movies
+P9803,UEFA stadium category,Category of the sports facility according to the UEFA Stadium Infrastructure Regulations,sports programs
+P9866,GRAC rating,age rating category as designated by the South Korean Game Rating and Administration Committee (GRAC),sports programs
+P9883,created for,"a work, event, etc. for which the subject work was created (e.g., a presidential inauguration that a poem was written for; a competition that a play was created for; a film that a screenplay was written for)",movies
+P9899,music created for,"a work, event, etc. for which a musical composition was created (e.g., a play for which incidental music was composed; a ballet for which ballet music was written; a film for which motion picture music was created)",movies
+P9927,number of tries marked,number of tries marked during a rugby competition,sports programs
+P10045,Vokrug.tv show ID,identify for a creative work in Vokrug.tv,TV programs
+P10052,Vokrug.tv person ID,identify for person in Vokrug.tv,TV programs
+P10173,Smotrim.ru film ID,identificator for film or TV-program in Smotrim.ru,TV programs
+P10196,Norgeshistorie ID,Identifier for an item on Norgeshistorie.no,news programs
+P10308,director of publication,"the person who is legally responsible for a publication (text, images, audio, or video, including broadcast). Definitions and translations may vary depending on the country and legislation.",TV programs
+P10449,trained by,personal trainer of the athlete,sports programs
+P10587,IFPI GTIN,identifying sound recordings and music video recordings via their barcodes,movies
+P10593,Kinowiki ID (archived),"page on the German Kinowiki, a website about old and new cinema buildings in Germany and elsewhere in Europe",movies
+P10606,notable role,"role in a theatrical, motion picture, television, or other work that a performer is particularly known for",movies
+P10607,athletics program,"the name of a school's athletics program, as opposed to individual teams in particular sports",sports programs
+P10640,pole positions,number of races started in pole position,sports programs
+P10648,podium finishes,number of podium finishes a participant achieved,sports programs
+P10659,number of medals,sports awards,sports programs
+P10664,featured track(s),soundtrack of this audiovisual work,movies
+P10696,image set,"exemplary image taken from a set, determined to represent the subject in a given role",TV programs
+P10729,finisher,finishing move used by an athlete in professional wrestling,sports programs
+P10823,fastest laps,"number of fastest laps a driver is credited with over a series, season, or career",sports programs
+P10965,Russian Football Union player ID,idientifier for an footballer's page on the website of the Russian Football Union,sports programs
+P10969,power series expansion,power series expansion of the subject,TV programs
+P10994,KFCB classification (Kenya),rating in the film classification system of Kenya,movies
+P10998,AFC player ID,footballer's page at the Asian Football Confederation,sports programs
+P11103,British Athletics athlete ID,a person's page on British Athletics,sports programs
+P11221,email unsubscribe URL or email,"website or email address which allows a user to unsubscribe to an email subscription for news, announcements, offers and updates relating to an organisation, product or service",news programs
+P11370,Canadian Broadcasting Corporation Gem ID,"Identifier for a Canadian Broadcasting Corporation GEM (a media URL for a television series, television episodes, documentaries, or other media)",TV programs
+P11574,Professional shogi player number,the number assigned to professional shogi players by the Japan Shogi Association,sports programs
+P11606,Mosfilm movie ID,movie page in Mosfilm online cinema,movies
+P11607,Mosfilm person ID,"page of the actor, director, screenwriter in the Mosfilm online cinema",movies
+P11657,NTV program ID,"page of the program, series or film on the NTV website",TV programs
+P11667,Epson Tour player ID,page of a golfer on the Epson Tour website,sports programs
+P11716,Russiancinema.ru person ID,page of film personalities in the Encyclopedia of National Cinema,movies
+P11866,NBC Olympics athlete ID,Identifier for an athlete profile on nbcolympics.com,sports programs
+P11924,IMDb keyword,IMDb keyword related to movies and television programs,TV programs
+P11964,tournament type,"significance or status of a sports competition for a league, tour, association, etc.",sports programs
+P11968,Antenna Structure Registration Number,number issued by the Federal Communications agency to uniquely identify a broadcast antenna structure,TV programs
+P12004,towing capacity,"the maximum sustainable force with which this vehicle can pull or push another object. Alternatively for road- or track-vehicles, the maximum weight of an object on wheels that this vehicle can reliably and safely pull given usual slopes",sports programs
+P12279,‎The Criterion Collection spine number,DVD/Blu-ray spine number of a film or film series in The Criterion Collection,movies
+P12324,production manager,manager that is responsible for the administration of a feature film or television production,movies
+P12334,Rowing Canada ID,athlete page on Rowing Canada,sports programs
+P12475,top scorer,best scorer of a single season of a team sport's competition or the best ever scorer of the history of a competition,sports programs
+P12484,television judge,person who participates in a television show as a competition judge or mentor,TV programs
+P12586,Traineras club ID,Identifier in Traineras website which lists competetive clubs and their results,sports programs
+P12622,PeerTube channel address,"address for a channel on a PeerTube instance, in 'user@server.domain' format",TV programs
+P12795,showrunner,person who is responsible for the day-to-day operation of a television show,TV programs
+P12801,thisisbasketball.be player ID,Identifier for basketball players in thisisbasketball.be,sports programs
+P12845,Farhang-i forsī ba rusī ID,entry for a Persian lexeme in the farhang.ru online reproduction of Yuri Rubinchik’s Persian–Russian dictionary,movies
+P12969,game designer,person(s) who devised and developed this game,sports programs
+P13102,Damehåndbolddatabasen ID,handball female player page on the Damehåndbolddatabasen website,sports programs
+P13146,picture of this person doing their job,"picture of a person in action, especially for a sportsperson, visual artist, musican, actor. P18 is normally used for portraits",sports programs
+P13243,Game Jolt username,username on Game Jolt,sports programs
+P13258,Presisov večjezični slovar ID,entry for a lexeme in the online edition of Presisov večjezični slovar,news programs
+P13286,World Snooker Tour tournament ID,Identifier for a tournament on the main website of World Snooker Tour (official site),sports programs
