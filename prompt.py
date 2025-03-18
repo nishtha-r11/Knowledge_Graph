@@ -68,6 +68,7 @@ def complete(myquestion,session):
     return df_response
 
 
+
 def process_response(data):
     data_str = data[0]['RESPONSE']
     # Split the data into lines
@@ -120,46 +121,27 @@ def main(session: snowpark.Session):
     #                     "animated", "history", "shopping", "baseball", "sitcom", 
     #                     "hockey", "gardening", "talk", "consumer", "science"] 
 
-    df_main = pd.read_csv("C:/Users/nishtha.r/Downloads/GitHub/Knowledge_Graph/wikidata_properties_labels_sorted.csv")
+    df_main = pd.read_csv("wikidata_properties_labels_sorted.csv")
     selected_pids = []
 
-    # for index, row in df_main.iterrows():
-    #     description = row['Description']
-    #     pid = row['Pids']
-        
-    #     full_prompt = prompt.format(description=description, pid=pid)
-        
-    #     data = complete(user_message(formatted_list),session)
-    #     df = process_response(data)
-    #     response = llm.response(full_prompt)
-        
-    #     if 'yes' in response.lower():
-    #         selected_pids.append(pid)
-
-    # result_df = pd.DataFrame({'PID': selected_pids})
-    # result_df.to_csv('selected_pids.csv', index=False)
-
+    selected_pids = []
     total_rows = df_main.shape[0]
     batch_size = 10
     n_loop = math.ceil(total_rows/batch_size)
-    temp_df =pd.DataFrame()
-    for i in range(0,5):
+    temp_df = pd.DataFrame()
+    for i in range(0,10):
         start_idx = i * batch_size
-        end_idx = min((i+1) * batch_size,total_rows)
-        description = df_main['Description'].iloc[start_idx:end_idx].values
-        # tile_id_list = df_main['Label'].iloc[i*10:(i+1)*10].values
-        # formatted_list = "\n".join([f"{i+1}.{desc}" for i, desc in enumerate(tile_id_list)])
+        end_idx = min((i+1) * batch_size, total_rows)
+        print(f"[{start_idx}, {end_idx}]")
+        # description = df_main['Description'].iloc[start_idx:end_idx].values
+        description = df_main.iloc[start_idx:end_idx].values
+        tile_id_list = df_main['Label'].iloc[i*10:(i+1)*10].values
+        formatted_list = "\n".join([f"{i+1}.{desc}" for i, desc in enumerate(tile_id_list)])    
+        # print(description)
         data = complete(user_message(formatted_list),session)
         df = process_response(data)
-        program_titles_from_df = df['Program_Title_Id']
-        # if set(program_titles_from_df) != set(programs_tile_id_list):
-        #     print("Not matching")
-        #     random.shuffle(programs_list)
-        #     formatted_list = "\n".join([f"{i+1}.{desc}" for i, desc in enumerate(programs_list)])
-        #     data = complete(user_message(formatted_list),session)
-        #     df = process_response(data)            
-        
         temp_df = pd.concat([temp_df,df])
+        break
         
     temp_df.reset_index(drop=True,inplace=True)
     # temp_sp = session.create_dataframe(temp_df)
@@ -169,4 +151,4 @@ def main(session: snowpark.Session):
     # programs= programs[['SHOW_ID','SHOW_TITLE','PROGRAM_ID','TITLE_DESCRIPTION','PROGRAM_TITLE','NER', 'NER_Description']]
     # programs.reset_index(drop=True,inplace=True)
 
-    return programs
+    return temp_df
