@@ -1,0 +1,51 @@
+,PID,Label,Description,Relevant
+0,P6,head of government,"head of the executive power of this town, city, municipality, state, country, or other governmental body",yes
+1,P10,video,"relevant video. For images, use the property P18. For film trailers, qualify with ""object has role"" (P3831)=""trailer"" (Q622550)",yes
+2,P14,traffic sign,"graphic symbol describing the item, used at the side of or above roads to give instructions or provide information to road users",no
+3,P15,route map,image of route map at Wikimedia Commons,no
+4,P16,transport network,network the infrastructure is a part of,no
+5,P17,country,sovereign state that this item is in (not to be used for human beings),no
+6,P18,image,"image of relevant illustration of the subject; if available, also use more specific properties (sample: coat of arms image, locator map, flag image, signature image, logo image, collage image)",no
+7,P19,place of birth,"most specific known birth location of a person, animal or fictional character",yes
+8,P20,place of death,"most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character",yes
+9,P21,sex or gender,"sex or gender identity of human or animal. For human: male, female, non-binary, intersex, transgender female, transgender male, agender, etc. For animal: male organism, female organism. Groups of same gender use subclass of (P279)",yes
+10,P22,father,"male parent of the subject. For stepfather, use  ""stepparent"" (P3448)",no
+11,P25,mother,"female parent of the subject. For stepmother, use ""stepparent"" (P3448)",no
+12,P26,spouse,"the subject has the object as their spouse (husband, wife, partner, etc.)",no
+13,P27,country of citizenship,the object is a country that recognizes the subject as its citizen,yes
+14,P30,continent,continent of which the subject is a part,no
+15,P31,instance of,that class of which this subject is a particular example and member,no
+16,P35,head of state,official with the highest formal authority in a country/state,yes
+17,P36,capital,"seat of government of a country, province, state or other type of administrative territorial entity",yes
+18,P37,official language,language designated as official by this item,yes
+19,P38,currency,currency used by item,yes
+20,P39,position held,subject currently or formerly holds the object position or public office,yes
+21,P40,child,"subject has object as child. Do not use for stepchildren—use ""relative"" (P1038), etc.",no
+22,P41,flag image,image of the item's flag,no
+23,P47,shares border with,"countries or administrative subdivisions, of equal level, that this item borders",no
+24,P50,author,main creator(s) of a written work,yes
+25,P51,audio,"relevant sound. If available, use a more specific property. Samples: ""spoken text audio"" etc.",no
+26,P53,family,"family, including dynasty and nobility houses. Not family name (use P734 for family name).",yes
+27,P54,member of sports team,sports teams or clubs that the subject represents or represented,yes
+28,P57,director,"director(s) of film, TV- series, stageplay, video game or similar",yes
+29,P58,screenwriter,person(s) who wrote the script for subject item,yes
+30,P59,constellation,the area of the celestial sphere of which the subject is a part (from a scientific standpoint...,no
+31,P61,discoverer or inventor,"subject who discovered, first described, invented, or developed this discovery or invention or sci...",yes
+32,P65,site of astronomical discovery,"the place where an astronomical object was discovered (observatory, satellite)",no
+33,P66,ancestral home,place of origin for ancestors of subject,no
+34,P69,educated at,educational institution attended by subject,yes
+35,P78,top-level Internet domain,Internet domain name system top-level code,no
+36,P81,connecting line,railway line( s ) subject is directly connected to,no
+37,P84,architect,person or architectural firm responsible for designing this building,yes
+38,P85,anthem,subject' s official anthem,yes
+39,P86,composer,"person( s ) who wrote the music [for lyricist, use ""lyrics by"" ( P676 ) ]",yes
+40,P87,librettist,"author of the libretto (words) of an opera, operetta, oratorio or cantata, or of the book of a musical",yes
+41,P88,commissioned by,person or organization that commissioned this work,yes
+42,P91,sexual orientation,the sexual orientation of the person relative to their declared gender,no
+43,P92,main regulatory text,text setting the main rules by which the subject is regulated,no
+44,P94,coat of arms image,"""image of the item'coat of arms - for the shield part only use P4004""",no
+45,P97,noble title,titles held by the person,yes
+46,P98,editor,"person who checks and corrects a work (such as a book, newspaper, academic journal, etc.)",no
+47,P101,field of work,specialization of a person or organization; see P106 for the occupation,yes
+48,P102,member of political party,the political party of which a person is or has been a member or otherwise affiliated,yes
+49,P103,native language,language or languages a person has learned from early childhood,no
